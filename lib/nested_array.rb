@@ -54,7 +54,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  new_value = matrix[1][1] 
+  new_value = matrix[1]
   
   
   # Given any matrix (array of arrays), a row index and a column index, 
